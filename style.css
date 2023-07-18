@@ -83,7 +83,6 @@ nav ul li > a{
     
 }
 .banner-container{
-
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -140,7 +139,7 @@ nav ul li > a{
     text-align: right;
 }
 .we-are-gamer-content h1{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
@@ -165,6 +164,50 @@ nav ul li > a{
 .we-are-gamer-content  .purpose strong{
     font-size: 23px;
 }
+/* online games section style  */
+.online-games{
+    margin-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+.online-games h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    padding: 10px 0;
+}
+.online-games h1 > span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.online-games p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.online-games-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-self: center;
+}
+.online-games-box{
+    text-align: left;
+    width: 235px;
+    height: auto;
+}
+.online-games-box img{
+    border-radius: 16px;
+    width: 235px;
+    height: 242px;
+}
+.online-games-box p{
+    font-size: 15px;
+    color: #0B0223;
+    font-weight: 500;
+}
+
 
 
 
@@ -180,7 +223,7 @@ nav ul li > a{
     /* header section style  */
     .header-container{
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         padding: 30px 0;
     }
     nav ul{
@@ -217,9 +260,24 @@ nav ul li > a{
     }
     .we-are-gamer-photo img{
        width: 100%;
-       width: 450px;
+       height: 350px;
     }
     .we-are-gamer-content{
         text-align: center;
     }
+    /* online games container  */
+    .online-games-container{
+        flex-direction: column;
+
+    }
+    .online-games-box{
+        width: 100%;
+    }
+    .online-games-box img{
+        margin: 10px 0;
+        width: 100%;
+        height: 250px;
+    }
+
+
 }
