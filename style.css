@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-margin{
+    margin: 0 180px;
+}
+
+
+/* header section style  */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    width: 80px;
+    height: 38px;
+}
+.header-title{
+    font-size: 2.8rem;
+    color: #0B0223;
+}
+.header-title span{
+    color: #FF42A5;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3c354f;
+}
+nav ul li > a{
+    text-decoration: none;
+
+
+}
+.follow-us{
+    display: flex;
+    align-items: center;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 12px;
+    border-radius: 8px;
+}
+.follow-us .youtube{
+    margin: 0 12px;
+    color:red;
+    font-size: 26px;
+}
+.follow-us .tiktok{
+    font-size: 24px;
+    padding: 5px;
+}
