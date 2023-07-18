@@ -10,6 +10,16 @@
 .main-margin{
     margin: 0 180px;
 }
+.btn {
+    margin: 20px 0;
+    padding: 21px 40px;
+    border-radius: 42px;
+    color: #fff;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
 
 
 /* header section style  */
@@ -94,23 +104,13 @@ nav ul li > a{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     color:transparent;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .banner-content p{
     font-size: 1.25rem;
     font-weight: 500;
     color:#534C64;
     margin-bottom: 12px;
-}
-.banner-content .btn {
-    margin-top: 25px;
-    padding: 21px 40px;
-    border-radius: 42px;
-    color: #fff;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
 }
 .banner-content .sing-in{
     background-color: #FF42A5;
@@ -121,6 +121,51 @@ nav ul li > a{
 .banner-image img{
     width: 570px;
 }
+/* we-are-gamer section style  */
+.we-are-gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-bottom: 50px;
+}
+.we-are-gamer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.we-are-gamer-photo img{
+   width: 560px;
+   height: 450px;
+}
+.we-are-gamer-content{
+    text-align: right;
+}
+.we-are-gamer-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.we-are-gamer-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #534C64;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.we-are-gamer-content  .btn{
+    margin: 10px 0;
+    background-color: #FF42A5;
+}
+.we-are-gamer-content  .purpose{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+}
+.we-are-gamer-content  .purpose strong{
+    font-size: 23px;
+}
+
 
 
 
@@ -153,11 +198,28 @@ nav ul li > a{
         flex-direction: column-reverse;
         gap: 20px;
     }
+    .banner-content {
+        padding-top: 80px;
+    }
     .banner-content .btn {
-        padding: 15px 32px;
-        margin: 0;
+        margin: 20px 0;
     }
     .banner-image img{
         width: 100%;
+    }
+    /* we are gamer  */
+    .we-are-gamer{
+        background: #fff;
+    }
+    .we-are-gamer-container{
+        flex-direction: column;
+        
+    }
+    .we-are-gamer-photo img{
+       width: 100%;
+       width: 450px;
+    }
+    .we-are-gamer-content{
+        text-align: center;
     }
 }
