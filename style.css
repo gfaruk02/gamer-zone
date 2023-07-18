@@ -49,8 +49,6 @@ nav ul > li{
 }
 nav ul li > a{
     text-decoration: none;
-
-
 }
 .follow-us{
     display: flex;
@@ -67,4 +65,99 @@ nav ul li > a{
 .follow-us .tiktok{
     font-size: 24px;
     padding: 5px;
+}
+/* banner section styles  */
+.banner{
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.banner-container{
+
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+.banner-content h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:#0B0223;
+    text-transform: uppercase;
+}
+.banner-content h1{
+    font-size: 5.5rem;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color:transparent;
+    margin: 20px 0;
+}
+.banner-content p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:#534C64;
+    margin-bottom: 12px;
+}
+.banner-content .btn {
+    margin-top: 25px;
+    padding: 21px 40px;
+    border-radius: 42px;
+    color: #fff;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
+.banner-content .sing-in{
+    background-color: #FF42A5;
+}
+.banner-content .go-rogue{
+    background-color: #4EC5F7;
+}
+.banner-image img{
+    width: 570px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .main-margin{
+        margin: 0 20px;
+    }
+    /* header section style  */
+    .header-container{
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 0;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul > li{
+        margin-right:0px;
+        margin-bottom: 20px;
+    }
+    .follow-us{
+        padding: 8px 12px;
+    }
+    /* banner section styles  */
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-content .btn {
+        padding: 15px 32px;
+        margin: 0;
+    }
+    .banner-image img{
+        width: 100%;
+    }
 }
