@@ -78,18 +78,20 @@ nav ul li > a{
 }
 /* banner section styles  */
 .banner{
-    background-color: #fff;
+    background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
 }
 .banner-container{
-    padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .banner-content{
-    background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-image:url("./images/Group\ 14.png");
+    background-position: center;
+
+    background-size: 100%;
+    padding: 10px 50px 0px 180px;  
 }
 .banner-content h3{
     font-size: 2.5rem;
@@ -118,6 +120,7 @@ nav ul li > a{
     background-color: #4EC5F7;
 }
 .banner-image img{
+    margin-right: 180px;
     width: 570px;
 }
 /* we-are-gamer section style  */
@@ -507,17 +510,23 @@ footer{
         padding: 8px 12px;
     }
     /* banner section styles  */
+    .banner{
+        overflow: hidden;
+        
+    }
     .banner-container{
         flex-direction: column-reverse;
+        justify-content: space-between;
         gap: 20px;
     }
-    .banner-content {
-        padding-top: 80px;
+    .banner-content{
+        padding: 15px;  
     }
     .banner-content .btn {
         margin: 20px 0;
     }
     .banner-image img{
+        padding: 10px;
         width: 100%;
     }
     /* we are gamer  */
